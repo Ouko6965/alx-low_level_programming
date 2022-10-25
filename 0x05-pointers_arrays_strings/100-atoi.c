@@ -29,7 +29,7 @@ int _atoi(char *s)
 
 		if (isi == 1)
 		{
-			braek;
+			break;
 		}
 
 		c++;
