@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	int coins[] = {25, 10, 5, 2, 1}; /*Array int*/
 
 	position = total = change = aux = 0;
-	
+
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 			change += aux;
 			total -= coins[position] * aux;
 		}
-		
+
 		position++;
 	}
 
