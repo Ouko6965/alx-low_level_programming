@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - this is a function to print its name
- * @argc: argc parameter
- * @argv: an array of a command listed
- * Return: 0 for success
+ * main - Prints its name
+ * @argc: argument count
+ * @argv: argument vector
+ *
+ * Return: Always zero
  */
 
 int main(int argc, char *argv[])
